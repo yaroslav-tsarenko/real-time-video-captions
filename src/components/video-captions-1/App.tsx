@@ -90,7 +90,7 @@ const App: React.FC = () => {
       <div className="content-wrapper">
         <div className="video-content">
           <video ref={videoRef} width="720" height="410" controls>
-            <source src={require('./assets/video/google-data-security-video.mp4')} type="video/mp4"/>
+            <source src={require('../../assets/video/google-data-security-video.mp4')} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
         </div>

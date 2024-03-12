@@ -1,0 +1,270 @@
+0:00
+[upbeat music]
+0:07
+Wong: Hi, I'm Stephanie Wong, and I work for Google Cloud.
+0:10
+While I could talk all day about cloud security,
+0:13
+physical security at a Google data center
+0:15
+is still pretty new to me,
+0:16
+so today I'm on a mission to learn all about it
+0:19
+by taking an inside look at the systems in place
+0:22
+that protect customer data
+0:23
+at a typical Google data center. Let's go.
+0:25
+[upbeat music]
+Security Layers
+0:28
+Now, I've been told there are six layers of security here.
+0:31
+Security layer one refers to the property boundaries,
+0:34
+and that includes signage and fencing.
+0:37
+But things really start to get interesting
+0:38
+when it comes to layer two, also known as the secure perimeter,
+0:42
+and that includes the main entrance gate which I am pulling up to right now.
+0:46
+[upbeat music]
+0:49
+Hey, how's it going? person: Good morning.
+0:51
+[upbeat music]
+Layer 2 Security
+0:58
+Wong: So layer two has a lot of security features
+1:01
+ranging from smart fencing to overlapping cameras
+1:04
+to 24/7 guard patrols and more.
+1:07
+I'm on my way to meet some experts
+1:09
+who are going to show me how it all works.
+1:13
+Hi, Joe.
+1:13
+Kava: Hi, Stephanie, how are you?
+1:15
+Wong: So I just passed the main gate and I saw guards and cameras,
+1:18
+but what are some things that I didn't see?
+1:20
+Kava: Yeah there's actually a lot of technology
+1:22
+and operations going on behind the scene.
+1:24
+So from the time that you're on site,
+1:26
+we know that you're here,
+1:27
+and we're able to do correlation analysis
+1:30
+of where you've been.
+1:31
+We have guards in vehicles, we have some guards on foot.
+1:34
+There's also the vehicle crash barrier.
+1:37
+That's designed to stop a fully loaded truck
+1:39
+from crashing through the front entrance.
+1:42
+Wong: Ricky, Tarik, can you tell me more about what's unique about the fencing?
+1:45
+Gordon: This particular fence is an anti-climb fence.
+1:48
+It's also equipped with fiber. The technology tells us
+1:52
+if someone's near the fence or touches the fence.
+1:55
+Billingsley: So we use thermal cameras and standard cameras.
+1:57
+So we're able to see video footage at night
+2:00
+just as clearly as we can during the day.
+2:03
+[light electronic music]
+Layer 3 Security
+2:07
+Wong: Welcome to layer three, building access.
+2:10
+But just so you know, I am still nowhere near
+2:12
+the data center floor.
+2:14
+That's a few more layers deep. Let's head inside.
+2:17
+O'Brien: Stephanie. Wong: Hello.
+2:18
+O'Brien: So you've gotten through the gate, you've come in,
+2:20
+you've come in to our secure lobby.
+2:21
+You have your card, and we know that that's you,
+2:24
+but if someone happened to lose their card,
+2:26
+what we want to make sure is that it's actually Stephanie
+2:29
+who has shown up.
+2:30
+scanner: Please center your eye.
+2:32
+O'Brien: And with iris scan, we can authenticate
+2:34
+that it's actually you along with your ID.
+2:37
+Wong: Okay, I think it's good.
+2:41
+One thing that's a little hard to get used to
+2:43
+when you visit a data center is,
+2:45
+for secure areas, only one person
+2:47
+is allowed to badge through a door at a time.
+2:51
+[light electronic music]
+Layer 4 Security
+3:02
+Layer four includes the security operations center,
+3:05
+or SOC, a hive of activity that is monitoring the data center
+3:09
+24/7, 365 days a year.
+3:12
+[light electronic music]
+3:14
+So it sounds like we've been keeping them very busy today.
+3:17
+Davis: Yes, yes you have.
+3:19
+So the doors, the cameras, the badge readers,
+3:22
+the iris scan-- everything is connected here.
+3:24
+This is the brains of the security system.
+3:27
+So if there's anything out of the ordinary happening,
+3:30
+they have to be able to pick that up.
+3:32
+[upbeat music]
+Layer 5 Security
+3:40
+Wong: Interesting fact about layer five,
+3:41
+the data center floor:
+3:43
+less than 1% of Googlers ever get to set foot in here.
+3:47
+So right now, I'm feeling kinda special.
+3:48
+[upbeat music]
+3:58
+Kava: This is truly a as-needed only access area,
+4:02
+meaning that only the technicians
+4:04
+and engineers that have to be there
+4:06
+to maintain, upgrade, or repair the equipment
+4:09
+are ever allowed there.
+4:12
+Wong: And do Googlers or anyone have access to the data?
+4:15
+Kava: We have access to the devices, but the data at rest
+4:18
+is encrypted, and our customers can issue
+4:21
+and keep their own encryption keys,
+4:23
+and we do this because protecting the privacy
+4:26
+and the security of our users' data is our highest priority.
+Layer 6 Security
+4:31
+Wong: The mysterious layer six, where disks
+4:34
+are erased and destroyed and the fewest number of people
+4:37
+are allowed to enter.
+4:39
+Drives that need to be retired from the data center floor
+4:41
+come into this room through a secure two-way locker system
+4:45
+which means that only technicians assigned to this room
+4:48
+can pull them from that locker to either erase
+4:50
+or destroy them.
+4:52
+Henley: All right, welcome to the crusher room.
+4:54
+Wong: Wow.
+4:55
+Henley: So at this point, we have scanned the hard drive,
+4:57
+and the software has told us that we need to destroy it.
+5:00
+Wong: Can we see it in action?
+5:01
+Henley: Back up. Wong: All right.
+5:02
+I'll stay back here. [both laugh]
+5:05
+[mechanical whirring]
+5:07
+That disk is definitely destroyed.
+5:09
+Henley: Yes it is.
+5:11
+[upbeat music]
+5:15
+Wong: If you didn't think these six layers of security
+5:17
+were enough, Google Cloud actually has
+5:20
+two security testing programs in place.
+5:22
+One hires companies to try to break in
+5:24
+to data center sites from the outside,
+5:27
+and the other tasks Googlers with trying to break
+5:29
+security protocols from the inside.
+5:33
+And getting out of a data center is arguably even harder
+5:37
+than getting in, as everybody has to go through full metal detection
+5:41
+each time they leave the data center floor.
+5:43
+[upbeat music]
+5:46
+person: Thank you, ma'am, for your cooperation.
+5:47
+Wong: Thank you.
+5:49
+Google Cloud supports compliance
+5:51
+with over 40 global standards, regulations, and certifications,
+5:55
+and the commitment to constantly test, optimize, and improve systems
+5:59
+makes it a leader in data center security.
+6:02
+Now, how do I get out of here?
+6:04
+[upbeat music]
